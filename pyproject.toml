@@ -7,6 +7,10 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "typer>=0.19.2",
+    "pydantic",
+    "pydantic-settings",
+    "pandas",
+    
 ]
 
 [project.scripts]
